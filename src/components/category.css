@@ -1,0 +1,30 @@
+.product_category {
+  /* height: 0px; */
+  max-width: 650px;
+  /* padding: 0.6rem 1rem; */
+  /* margin-top: 1.5rem; */
+  display: flex;
+  justify-content: space-evenly;
+  background: lightgray;
+  color: #fff;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+  padding-block: 0.5rem;
+}
+
+.category_items {
+  font-size: 1.2rem;
+  cursor: pointer;
+  font-weight: bold;
+  background: rgb(117, 115, 115);
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.category_items:hover {
+  transform: translateY(-5px);
+}
